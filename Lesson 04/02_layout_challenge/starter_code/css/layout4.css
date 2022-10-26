@@ -19,6 +19,7 @@ Use Flex-wrap, flex-direction, and flex to control how the header spaces and siz
 display: flex;
 justify-content: space-between;
 margin-right: 10px;
+flex-wrap: wrap;
 }
 
 .exerciseHeaderLogo {
