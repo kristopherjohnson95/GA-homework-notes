@@ -1,0 +1,128 @@
+.site_header{
+    background-color: orange;
+    border-bottom: 5px solid black;
+    padding: 10px 30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site_header h1{
+    font-size: 32px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+ display: flex;
+ justify-content: center;
+    align-items: center;
+}
+
+.main-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 0;
+    font-family: sans-serif;
+    margin: 0%;
+}
+
+.main-nav li {
+    padding-left: 15px;
+}
+.secondary-text {
+    background-color: #adadad;
+    font-weight: bold;
+    font-style: italic;
+    text-align:center;
+    font-family: 'Lario',sans-serif;
+}
+
+.secondary-text p {
+    font-size: 28px;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0%;
+    font-family: 'playball';
+    color: #fff;
+    
+ background: linear-gradient(135deg,var(--primary), var(--secondary )),                        
+             url('./P3Logo.png')no-repeat center center / cover; 
+
+             
+             
+   
+}
+
+:root{
+   --primary: hsla(200, 4%, 14%,0.65); 
+    --secondary:hsla(210, 3%, 26%,0.65); 
+   
+}
+
+
+.featured-block h1{
+    font-family: 'merroweather',serif;
+    font-size: 24px;
+}
+
+.featured-block .cta{
+    background-color: #adadad;
+}
+
+/*.Four-column{
+     text-align: center;
+    
+    
+}
+*/
+.site-footer {
+    background-color: black;
+    display: flex;
+    padding:15px 25px;
+   position: fixed;
+    bottom: 0%;
+    width: 100%;
+    
+    
+}
+
+.oompa {
+min-height: 15vh;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 20px;
+}
+.oompa h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 50px auto;
+    font-size: 30px;
+}
+
+li{
+    margin: 0 20px;
+}
+
+.oompa a{
+    font-size: 25px;
+    color: white;
+}
+
+.fwh-slide{
+    height: 100vh;
+    background: black;
+    box-sizing: border-box;
+    
+}

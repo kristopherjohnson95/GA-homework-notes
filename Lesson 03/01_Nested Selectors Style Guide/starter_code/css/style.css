@@ -35,6 +35,21 @@ a {
 }
 
 
+.relaxr-corestyles h1,
+.relaxr-corestyles h2,
+.relaxr-corestyles h3,
+.relaxr-corestyles h4,
+.relaxr-corestyles h5,
+.relaxr-corestyles h6,{
+  color: #0330348;
+  font-weight: 600; 
+  margin: 16px;
+
+  .relaxr-corestyles h1 {
+    font-size: 40px;
+  }
+
+}
 
 
 
