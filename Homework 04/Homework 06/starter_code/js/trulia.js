@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
   }
  });
 
-// Toggle the navigation
+// Toggle the navigation   
 
 
 
